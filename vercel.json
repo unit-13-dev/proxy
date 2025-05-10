@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/openreward/:path*",
+      "destination": "https://openrewardredirects.vercel.app/openreward/:path*"
+    },
+    {
+      "source": "/openreward",
+      "destination": "https://openrewardredirects.vercel.app/openreward"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.unit13.xyz//:path*"
+    }
+  ]
+}
